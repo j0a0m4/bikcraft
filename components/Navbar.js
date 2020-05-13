@@ -40,14 +40,22 @@ export default function Navbar() {
           margin-right: 30px;
           display: flex;
         }
+
         #Navbar nav ul li {
           padding-right: 20px;
         }
+
         #Navbar nav ul li a {
           text-transform: uppercase;
           color: black;
           font-weight: bold;
           text-decoration: none;
+          transition: 0.5s;
+        }
+
+        #Navbar nav ul li a:hover {
+          color: white;
+          transition: 0.3s;
         }
       `}</style>
     </header>
