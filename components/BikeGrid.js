@@ -13,6 +13,7 @@ export default function BikeGrid() {
       <style jsx scoped>{`
         .BikeGrid {
           display: grid;
+          margin-bottom: 100px;
           align-items: center;
           justify-items: center;
           grid-row-gap: 30px;

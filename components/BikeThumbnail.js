@@ -14,6 +14,7 @@ export default function BikeThumbnail({ type, desc }) {
       <style jsx scoped>{`
         .BikeThumbnail {
           background-color: black;
+          min-height: 250px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -29,7 +30,14 @@ export default function BikeThumbnail({ type, desc }) {
         .BikeThumbnail .content p {
           font-family: Georgia;
           font-size: 1rem;
+          min-height: 80px;
           max-width: 25ch;
+        }
+        .BikeThumbnail header {
+          display: flex;
+          justify-items: center;
+          align-items: center;
+          min-height: 200px;
         }
       `}</style>
     </article>

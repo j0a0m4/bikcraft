@@ -152,6 +152,12 @@ export default function Layout({ children }) {
           padding: 10px 20px 10px 20px;
           border: 2px solid black;
           text-transform: uppercase;
+          transition: 0.5s;
+        }
+        button:hover {
+          color: var(--yellow);
+          border: 2px solid var(--yellow);
+          transition: 0.3s;
         }
       `}</style>
     </main>

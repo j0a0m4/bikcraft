@@ -35,11 +35,6 @@ não considere útil ou acredita ser bonito!"
           color: white;
           transition: 0.5s;
         }
-        button:hover {
-          color: var(--yellow);
-          border: 2px solid var(--yellow);
-          transition: 0.3s;
-        }
       `}</style>
     </section>
   );
