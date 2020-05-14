@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Layout({ children }) {
   return (
-    <>
+    <main>
       {children}
       <style jsx global>{`
         @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
@@ -134,9 +134,21 @@ export default function Layout({ children }) {
           border-spacing: 0;
         }
         body {
+          font-size: 18px;
           font-family: "Roboto", sans-serif;
         }
+        h1 {
+          font-size: 2rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+        }
+        button {
+          padding: 10px 20px 10px 20px;
+          border: 2px solid black;
+        }
       `}</style>
-    </>
+    </main>
   );
 }

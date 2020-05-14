@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header id="Navbar">
+    <header className="Navbar">
       <img
         id="logo"
         src="/assets/bikcraft.svg"
@@ -25,9 +25,9 @@ export default function Navbar() {
         </ul>
       </nav>
       <style jsx>{`
-        #Navbar {
+        .Navbar {
           background-color: var(--yellow);
-          padding: 10px 10px 10px 10px;
+          padding: 10px;
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -36,16 +36,16 @@ export default function Navbar() {
           width: 100%;
         }
 
-        #Navbar nav ul {
+        .Navbar nav ul {
           margin-right: 30px;
           display: flex;
         }
 
-        #Navbar nav ul li {
+        .Navbar nav ul li {
           padding-right: 20px;
         }
 
-        #Navbar nav ul li a {
+        .Navbar nav ul li a {
           text-transform: uppercase;
           color: black;
           font-weight: bold;
@@ -53,7 +53,7 @@ export default function Navbar() {
           transition: 0.5s;
         }
 
-        #Navbar nav ul li a:hover {
+        .Navbar nav ul li a:hover {
           color: white;
           transition: 0.3s;
         }
