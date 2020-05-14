@@ -142,11 +142,16 @@ export default function Layout({ children }) {
         }
         h2 {
           font-size: 1.5rem;
+        }
+        h1,
+        h2,
+        h3 {
           text-transform: uppercase;
         }
         button {
           padding: 10px 20px 10px 20px;
           border: 2px solid black;
+          text-transform: uppercase;
         }
       `}</style>
     </main>

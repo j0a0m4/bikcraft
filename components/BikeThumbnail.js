@@ -26,9 +26,6 @@ export default function BikeThumbnail({ type, desc }) {
           align-items: center;
           background-color: var(--yellow);
         }
-        .BikeThumbnail .content h3 {
-          text-transform: uppercase;
-        }
         .BikeThumbnail .content p {
           font-family: Georgia;
           font-size: 1rem;

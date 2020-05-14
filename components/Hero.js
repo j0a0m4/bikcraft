@@ -25,13 +25,11 @@ não considere útil ou acredita ser bonito!"
           color: white;
           font-size: 2.5rem;
           font-weight: bold;
-          text-transform: uppercase;
           text-shadow: 1px 1px black;
         }
 
         button {
           background: none;
-          text-transform: uppercase;
           font-weight: bold;
           border: 2px solid white;
           color: white;
