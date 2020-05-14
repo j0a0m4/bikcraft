@@ -19,6 +19,7 @@ export default function Quote({ phrase, author }) {
           text-align: center;
           font-family: "Georgia";
           max-width: 40ch;
+          line-height: 1.6rem;
         }
 
         .Quote footer {

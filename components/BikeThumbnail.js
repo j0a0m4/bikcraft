@@ -20,6 +20,7 @@ export default function BikeThumbnail({ type, desc }) {
           align-items: center;
           grid-area: ${type};
         }
+
         .BikeThumbnail .content {
           padding: 10px;
           display: flex;
@@ -27,12 +28,18 @@ export default function BikeThumbnail({ type, desc }) {
           align-items: center;
           background-color: var(--yellow);
         }
+
+        .BikeThumbnail h3 {
+          font-weight: 500;
+        }
+
         .BikeThumbnail .content p {
           font-family: Georgia;
           font-size: 1rem;
           min-height: 80px;
           max-width: 25ch;
         }
+
         .BikeThumbnail header {
           display: flex;
           justify-items: center;

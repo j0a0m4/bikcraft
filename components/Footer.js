@@ -69,6 +69,7 @@ function Content({ title, children, id }) {
           margin-bottom: 15px;
         }
         .Content section {
+          line-height: 1.5rem;
           font-size: 1rem;
         }
       `}</style>

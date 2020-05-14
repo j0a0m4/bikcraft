@@ -6,9 +6,11 @@ export default function Layout({ children }) {
       {children}
       <style jsx global>{`
         @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
         :root {
           --yellow: #fec63e;
         }
+
         html,
         body,
         div,
@@ -133,6 +135,9 @@ export default function Layout({ children }) {
           border-collapse: collapse;
           border-spacing: 0;
         }
+         {
+          /* My Global CSS */
+        }
         body {
           font-size: 18px;
           font-family: "Roboto", sans-serif;
@@ -149,6 +154,7 @@ export default function Layout({ children }) {
           text-transform: uppercase;
         }
         button {
+          background: none;
           padding: 10px 20px 10px 20px;
           border: 2px solid black;
           text-transform: uppercase;
