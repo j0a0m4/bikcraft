@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import BikeGrid from "../components/BikeGrid";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <BikeGrid />
+        <Footer />
       </Layout>
     </>
   );
