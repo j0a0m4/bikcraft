@@ -13,6 +13,7 @@ export default function BikeThumbnail({ type, desc }) {
       </section>
       <style jsx scoped>{`
         .BikeThumbnail {
+          margin: 5px;
           background-color: black;
           min-height: 250px;
           display: flex;

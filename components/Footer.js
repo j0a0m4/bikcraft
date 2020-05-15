@@ -48,6 +48,12 @@ export default function Footer() {
           background-color: var(--yellow);
           height: 90px;
         }
+        @media (max-width: 414px) {
+          .ContentRow {
+            grid-template-columns: 1fr;
+            row-gap: 30px;
+          }
+        }
       `}</style>
     </footer>
   );

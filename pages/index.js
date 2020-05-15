@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import BikeGrid from "../components/BikeGrid";
 import Footer from "../components/Footer";
 import Quote from "../components/Quote";
+import SlideshowGrid from "../components/SlideshowGrid";
 
 export default function Home() {
   return (
@@ -27,9 +28,14 @@ export default function Home() {
           />
         </Hero>
         <BikeGrid />
+        <SlideshowGrid
+          title="Portfolio"
+          action="Portfolio"
+          images={["retro-1", "esporte-1", "passeio-2"]}
+        />
         <Hero image="passeio-1">
           <Quote
-            phrase="O verdadeiro sogredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"
+            phrase="O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana"
             author="William Morris"
           />
         </Hero>
