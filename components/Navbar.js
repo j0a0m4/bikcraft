@@ -26,23 +26,24 @@ export default function Navbar() {
       </nav>
       <style jsx>{`
         .Navbar {
+          display: grid;
+          align-items: center;
+          grid-template-columns: 1fr 3fr;
           background-color: var(--yellow);
           padding: 10px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          min-heigth: 80px;
-          min-width: 50px;
-          width: 100%;
+        }
+        #logo {
+          min-width: 100px;
+          min-heigth: 31px;
+          padding-left: 50px;
         }
 
         .Navbar nav ul {
-          margin-right: 30px;
-          display: flex;
-        }
-
-        .Navbar nav ul li {
-          padding-right: 20px;
+          display: grid;
+          align-items: center;
+          padding-right: 50px;
+          justify-items: center;
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         }
 
         .Navbar nav ul li a {
@@ -56,6 +57,26 @@ export default function Navbar() {
         .Navbar nav ul li a:hover {
           color: white;
           transition: 0.3s;
+        }
+        @media (max-width: 414px) {
+          .Navbar {
+            justify-items: center;
+            grid-template-columns: 1fr 1fr;
+          }
+          #logo {
+            padding-left: 0px;
+          }
+          .Navbar nav ul {
+            padding-right: 0px;
+          }
+          .Navbar nav ul li {
+            padding-bottom: 7px;
+          }
+        }
+        @media (min-width: 1000px) {
+          .Navbar {
+            grid-template-columns: 1fr 1fr;
+          }
         }
       `}</style>
     </header>

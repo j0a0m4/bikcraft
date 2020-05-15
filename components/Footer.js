@@ -35,19 +35,20 @@ export default function Footer() {
         }
         .ContentRow {
           padding-top: 40px;
+          padding-left: 50px;
           min-height: 200px;
           display: grid;
           grid-template-columns: 1.5fr 1fr 1fr;
           column-gap: 20px;
-          padding-left: 20px;
         }
         .copyright {
           display: grid;
           align-items: center;
-          padding-left: 30px;
           background-color: var(--yellow);
           height: 90px;
+          padding-left: 50px;
         }
+
         @media (max-width: 414px) {
           .ContentRow {
             grid-template-columns: 1fr;

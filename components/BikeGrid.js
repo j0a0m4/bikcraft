@@ -17,7 +17,7 @@ export default function BikeGrid() {
           align-items: center;
           justify-items: center;
           grid-row-gap: 30px;
-          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
           grid-template-areas:
             ". subtitle ."
             "passeio esporte retro"
@@ -29,7 +29,7 @@ export default function BikeGrid() {
         .BikeGrid h2 {
           grid-area: subtitle;
         }
-        @media (min-width: 1000px) {
+        @media (min-width: 1025px) {
           .BikeGrid {
             margin-left: 200px;
             margin-right: 200px;
