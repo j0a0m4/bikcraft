@@ -53,6 +53,10 @@ export default function Footer() {
           .ContentRow {
             grid-template-columns: 1fr;
             row-gap: 30px;
+            padding-left: 0px;
+          }
+          .copyright {
+            padding-left: 0px;
           }
         }
       `}</style>
