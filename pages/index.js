@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bikcraft</title>
+        <title>Home - Bikcraft</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <Layout>
-        <Navbar />
         <Hero
           image="mesa-trabalho"
           title="Bicicletas Feitas a Mão "

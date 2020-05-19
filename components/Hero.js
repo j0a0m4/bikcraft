@@ -1,7 +1,15 @@
 import React from "react";
 import Quote from "./Quote";
 
-export default function Hero({ children, image, title, action, margin }) {
+export default function Hero({
+  children,
+  image,
+  position,
+  title,
+  action,
+  margin,
+  size,
+}) {
   return (
     <section className="Hero">
       {title && <h2>{title}</h2>}
@@ -9,14 +17,15 @@ export default function Hero({ children, image, title, action, margin }) {
       {action && <button>{action}</button>}
       <style jsx scoped>{`
         .Hero {
+          color: white;
           padding: 20px;
           display: grid;
           justify-items: center;
           align-items: center;
           background-color: black;
           background-image: url("/assets/fotos/${image}.jpg");
-          background-position: center;
-          height: 380px;
+          ${`background-position:${position ? position : "center"};`}
+          ${`height:${size ? size : "380px"};`}
           ${margin && "margin-bottom: 100px;"}
         }
 
