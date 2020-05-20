@@ -140,7 +140,7 @@ export default function Layout({ children }) {
         }
         body {
           font-size: 18px;
-          font-family: "Roboto", sans-serif;
+          font-family: "Roboto", "Arial", sans-serif;
         }
         h1 {
           font-size: 2rem;
