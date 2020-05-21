@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import ProductGrid from "../components/ProductGrid";
+import ProductList from "../components/ProductList";
 
 export default function produtos() {
   return (
@@ -21,9 +21,7 @@ export default function produtos() {
         >
           <p>conheça todos os nossos produtos</p>
         </Hero>
-        <ProductGrid title="passeio" />
-        <ProductGrid title="esporte" />
-        <ProductGrid title="retro" />
+        <ProductList />
         <Footer />
       </Layout>
     </>

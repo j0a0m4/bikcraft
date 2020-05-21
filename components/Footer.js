@@ -34,8 +34,7 @@ export default function Footer() {
           min-height: 100px;
         }
         .ContentRow {
-          padding-top: 40px;
-          padding-left: 50px;
+          padding: 50px;
           min-height: 200px;
           display: grid;
           grid-template-columns: 1.5fr 1fr 1fr;

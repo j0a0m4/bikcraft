@@ -1,5 +1,6 @@
 import React from "react";
 import ProductDesc from "./ProductDesc";
+import { ProductImage } from "./ProductImage";
 
 export default function ProductGrid({ title, text, desc }) {
   return (
@@ -43,24 +44,6 @@ export default function ProductGrid({ title, text, desc }) {
           width: 100%;
           height: 100%;
           background-color: black;
-        }
-      `}</style>
-    </>
-  );
-}
-
-function ProductImage({ title, area }) {
-  return (
-    <>
-      <img
-        className={`img-${area}`}
-        src={`/assets/produtos/${title}.jpg`}
-        alt={`Bike ${title} `}
-      />
-      <style jsx scoped>{`
-        .img-${area} {
-          width: 100%;
-          grid-area: ${area};
         }
       `}</style>
     </>
