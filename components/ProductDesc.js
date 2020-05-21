@@ -33,6 +33,7 @@ export default function ProductDesc({
             font-family: "Georgia";
             font-size: 1rem;
             line-height: 24px;
+            min-width: 100px;
             padding: 30px;
             height: 120px;
             grid-area: desc;

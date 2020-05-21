@@ -19,10 +19,11 @@ export default function ProductGrid({ title, text, desc }) {
       </article>
       <style jsx scoped>{`
         .ProductGrid {
-          padding: 100px;
+          max-width: 1000px;
+          padding: 50px;
           display: grid;
           row-gap: 30px;
-          column-gap: 50px;
+          column-gap: 20px;
           justify-items: center;
           align-items: center;
           grid-template-columns: 1.5fr 0.5fr 1fr;
